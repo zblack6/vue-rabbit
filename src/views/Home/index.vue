@@ -4,7 +4,7 @@ import HomeBanner from './components/HomeBanner.vue';
 import HomeHot from './components/HomeHot.vue';
 import HomeNew from './components/HomeNew.vue';
 import HomeProduct from './components/HomeProduct.vue';
-import HomePanel from './components/HomePanel.vue';
+// import HomePanel from './components/HomePanel.vue';
 </script>
 
 <template>
@@ -17,7 +17,7 @@ import HomePanel from './components/HomePanel.vue';
     <HomeProduct />
 
     <!--测试面板组件-->
-    <HomePanel title="新鲜好物" sub-title="新鲜好物，热气">
+    <!-- <HomePanel title="新鲜好物" sub-title="新鲜好物，热气">
         <div>
             插槽1
         </div>
@@ -27,6 +27,6 @@ import HomePanel from './components/HomePanel.vue';
         <div>
             插槽2
         </div>
-    </HomePanel>
+    </HomePanel> -->
 
 </template>

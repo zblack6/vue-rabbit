@@ -20,8 +20,17 @@ export const findNewAPI = () => {
   })
 }
 
+//人气推荐
 export const getHotApi = ()=>{
     return httpInstance({
         url:'/home/hot'
     })
+}
+
+
+//产品接口
+export const getGoodsAPI = ()=>{
+  return httpInstance({
+    url:'/home/goods'
+  })
 }
